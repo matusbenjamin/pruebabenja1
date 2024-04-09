@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="576dp"
+        android:layout_height="252dp"
+        android:background="#A3AE1C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
+        app:layout_constraintVertical_bias="1.0">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="186dp"
+            android:layout_height="108dp"
+            android:text="Button"
+            tools:layout_editor_absoluteX="208dp"
+            tools:layout_editor_absoluteY="72dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="580dp"
+        android:layout_height="356dp"
+        android:background="#952929"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="192dp"
+            android:layout_height="126dp"
+            android:text="Button"
+            tools:layout_editor_absoluteX="194dp"
+            tools:layout_editor_absoluteY="143dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="580dp"
+        android:layout_height="314dp"
+        android:background="#3EBD21"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="380dp">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="164dp"
+            android:layout_height="95dp"
+            android:text="Palta"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            tools:layout_editor_absoluteX="216dp"
+            tools:layout_editor_absoluteY="92dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
