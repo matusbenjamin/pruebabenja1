@@ -8,32 +8,35 @@
     tools:context=".MainActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="576dp"
-        android:layout_height="252dp"
+        android:id="@+id/constraintLayout3"
+        android:layout_width="406dp"
+        android:layout_height="227dp"
         android:background="#A3AE1C"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
-        app:layout_constraintVertical_bias="1.0">
+        app:layout_constraintVertical_bias="0.5">
 
         <Button
             android:id="@+id/button2"
             android:layout_width="186dp"
             android:layout_height="108dp"
             android:text="Button"
-            tools:layout_editor_absoluteX="208dp"
-            tools:layout_editor_absoluteY="72dp" />
+            tools:layout_editor_absoluteX="110dp"
+            tools:layout_editor_absoluteY="59dp" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="580dp"
-        android:layout_height="356dp"
+        android:id="@+id/constraintLayout2"
+        android:layout_width="400dp"
+        android:layout_height="231dp"
         android:background="#952929"
         app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.5">
@@ -43,26 +46,30 @@
             android:layout_width="192dp"
             android:layout_height="126dp"
             android:text="Button"
-            tools:layout_editor_absoluteX="194dp"
-            tools:layout_editor_absoluteY="75dp" />
+            tools:layout_editor_absoluteX="111dp"
+            tools:layout_editor_absoluteY="48dp" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
-        android:layout_width="580dp"
-        android:layout_height="314dp"
+        android:layout_width="391dp"
+        android:layout_height="229dp"
         android:background="#3EBD21"
-        tools:layout_editor_absoluteX="-2dp"
-        tools:layout_editor_absoluteY="380dp">
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2"
+        app:layout_constraintVertical_bias="0.5">
 
         <TextView
             android:id="@+id/textView6"
-            android:layout_width="164dp"
-            android:layout_height="95dp"
+            android:layout_width="67dp"
+            android:layout_height="29dp"
             android:text="Palta"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            tools:layout_editor_absoluteX="230dp"
-            tools:layout_editor_absoluteY="120dp" />
+            tools:layout_editor_absoluteX="171dp"
+            tools:layout_editor_absoluteY="98dp" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
